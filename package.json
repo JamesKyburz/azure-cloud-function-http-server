@@ -1,0 +1,35 @@
+{
+  "name": "azure-cloud-function-http-server",
+  "description": "run http servers as azure cloud functions",
+  "keywords": [
+    "azure-functions",
+    "serverless",
+    "proxy",
+    "http",
+    "lambda",
+    "faas"
+  ],
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/azure-cloud-function-http-server.git"
+  },
+  "author": {
+    "name": "james kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "in-memory-http-listener": "0.1.10"
+  },
+  "devDependencies": {
+    "tap": "12.1.0"
+  },
+  "license": "Apache-2.0"
+}
